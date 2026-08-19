@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://dw64gq7m5vdvy"]
+
+[ext_resource type="Script" uid="uid://b54j05oqxrlq0" path="res://Scripts/copying_tiles.gd" id="1_2d4fu"]
+[ext_resource type="TileSet" uid="uid://ckcixb0pp5is6" path="res://Tilesets/hex_tile_set.tres" id="2_kj1o6"]
+[ext_resource type="Script" uid="uid://buj6ft1vvdf2f" path="res://addons/hexagon_tilemaplayer/hexagon_tilemaplayer.gd" id="3_tqb0d"]
+
+[node name="Node2D" type="Node2D" unique_id=1828788795]
+script = ExtResource("1_2d4fu")
+
+[node name="HexTileLayer" type="TileMapLayer" parent="." unique_id=1008896528]
+y_sort_enabled = true
+texture_filter = 1
+tile_map_data = PackedByteArray(0, 0, 249, 255, 251, 255, 0, 0, 0, 0, 0, 0, 0, 0, 5, 0, 251, 255, 0, 0, 0, 0, 0, 0, 0, 0, 5, 0, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 250, 255, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)
+tile_set = ExtResource("2_kj1o6")
+script = ExtResource("3_tqb0d")
+metadata/_custom_type_script = "uid://buj6ft1vvdf2f"
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=2049181646]

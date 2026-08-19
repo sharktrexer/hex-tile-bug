@@ -1,4 +1,4 @@
-[gd_scene format=3 uid="uid://dw64gq7m5vdvy"]
+[gd_scene format=3 uid="uid://cam886tv6a0m4"]
 
 [ext_resource type="Script" uid="uid://da4y4k1mfdvin" path="res://Scripts/use_conversion_method_in_editor.gd" id="1_hbr36"]
 [ext_resource type="TileSet" uid="uid://ckcixb0pp5is6" path="res://Tilesets/hex_tile_set.tres" id="2_w47pg"]

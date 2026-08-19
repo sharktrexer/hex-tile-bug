@@ -1,0 +1,14 @@
+[gd_scene format=4 uid="uid://bm4yq77ujqqyr"]
+
+[ext_resource type="TileSet" uid="uid://ckcixb0pp5is6" path="res://Tilesets/hex_tile_set.tres" id="1_0dfe0"]
+[ext_resource type="Script" uid="uid://buj6ft1vvdf2f" path="res://addons/hexagon_tilemaplayer/hexagon_tilemaplayer.gd" id="2_upln2"]
+
+[node name="Node" type="Node2D" unique_id=108067937]
+
+[node name="HexTileLayer" type="TileMapLayer" parent="." unique_id=1915813613]
+y_sort_enabled = true
+texture_filter = 1
+tile_map_data = PackedByteArray("AAAGAAAAAAAAAAAAAAAGAP//AAAAAAAAAAAHAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAHAAEAAAAAAAAAAAAGAAEAAAAAAAAAAAAHAP//AAAAAAAAAAA=")
+tile_set = ExtResource("1_0dfe0")
+script = ExtResource("2_upln2")
+metadata/_custom_type_script = "uid://buj6ft1vvdf2f"
