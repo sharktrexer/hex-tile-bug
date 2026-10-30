@@ -11,6 +11,6 @@ func _ready() -> void:
 	if Engine.is_editor_hint() :
 
 		# attempt use of conversion func
-		cur_hex_map.map_to_cube(Vector2i.ZERO)
+		print(cur_hex_map.map_to_cube(Vector2i(5,7)))
 
 		
