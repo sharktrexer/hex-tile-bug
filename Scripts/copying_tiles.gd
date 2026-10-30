@@ -14,7 +14,8 @@ func _ready() -> void:
 	var copy_from_cells: Array[Vector2i] = copy_from_layer.get_used_cells()
 
 	# tile_set exists
-	print(copy_from_layer.tile_set)
+	print('copy from layer tileset: ', copy_from_layer.tile_set)
+	print('copy to layer tileset: ', copy_to.tile_set)
 
 	# the offset to place the copied cells
 	var anchor_vector := Vector3i(2,0,1)
